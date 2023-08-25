@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply shadow-md rounded-xl w-fit p-6 hover:shadow-xl bg-white dark:bg-slate-800;
+  }
+  .btn {
+    @apply rounded-md p-2 text-white bg-sky-500 font-semibold text-sm m-2 hover:ease-in hover:duration-300;
+  }
+  .btn-outlined {
+    @apply rounded-md  p-1 pl-2 pr-2 font-semibold text-xs text-sky-500 dark:text-white border-sky-500 dark:border-sky-800;
+  }
+  .chip {
+    @apply rounded-3xl p-1 pl-2 pr-2 text-white bg-sky-600 font-semibold text-xs m-1;
+  }
+  .nav-chip {
+    @apply border-2 text-sky-500 dark:text-sky-800 border-sky-500 dark:border-sky-800  m-1  w-8 h-8 text-sm;
+  }
+  .nav-chip-selected {
+    @apply border-2 border-sky-500 dark:border-sky-800  m-1  w-8 h-8 text-sm dark:bg-sky-800 bg-sky-500 text-white;
+  }
+  .title {
+    @apply text-2xl text-left font-semibold pb-4 dark:text-white;
+  }
+  .secondary {
+    @apply text-zinc-800 dark:text-zinc-300 font-semibold
+  }
+  .icon-button {
+    @apply w-10 transition hover:w-10 hover:duration-150 ease-in-out p-0.5 hover:p-0 m-2
+  }
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
