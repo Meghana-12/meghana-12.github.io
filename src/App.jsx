@@ -24,7 +24,6 @@ function App() {
             <Skills/>
             <Achievements/>
             <Blogs/>
-           
             <div className='card overflow-hidden grow flex flex-col justify-around'>
               <div className='title '> Also... cats are super cute, right? </div>
                 <img src={Cat} alt='cats'/>
