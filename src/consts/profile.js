@@ -46,11 +46,11 @@ const RESUME = {
 const CONTACT = {
   TWITTER: {
     ICON: Twitter,
-    LINK: "https://twitter.com/meghana_cosmos",
+    LINK: "https://twitter.com/meghanacosmos",
   },
   GITHUB: {
     ICON: Github,
-    LINK: "https://github.com/Meghana-12",
+    LINK: "https://github.com/meghanacosmos",
   },
   MAIL: {
     ICON: Mail,
@@ -58,7 +58,7 @@ const CONTACT = {
   },
   LINKEDIN: {
     ICON: Linkedin,
-    LINK: "https://www.linkedin.com/in/meghana100/",
+    LINK: "https://www.linkedin.com/in/meghanacosmos",
   },
 };
 
