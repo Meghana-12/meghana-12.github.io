@@ -69,6 +69,7 @@ function Projects() {
     }
     setActive(value);
   };
+
   return (
     <div className="flex flex-col justify-evenly gap-4 ">
       <div className="card text-left font-semibold w-full dark:text-white">
@@ -131,6 +132,8 @@ function Projects() {
                   title={item?.title}
                   hashtags={item?.hashtags}
                   description={item?.description}
+                  project_link={item?.project_link}
+                  code_link={item?.code_link}
                 />
               </div>
             ))
