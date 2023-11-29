@@ -6,7 +6,7 @@ function Music() {
         <div className='title'>
           Hobbies
         </div>
-        <Skill  skills={['Guitar' , 'Music', 'Building apps', 'Hackathons' , 'Watching Movies/Series' ]}/>
+        <Skill  skills={['Guitar' , 'Watercolors', 'Building apps', 'Anime' ]}/>
     </div>
   )
 }
