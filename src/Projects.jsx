@@ -14,7 +14,7 @@ const projects = [
     code_link: "https://github.com/meghanacosmos/devchallenges-portfolio",
     description: (
       <div>
-        Its this project right here XD! I built this as part of the{" "}
+        Its this project right here XD! I built this as part of the&nbsp;
         <a
           className="font-semibold underline"
           href="https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt"
@@ -37,7 +37,7 @@ const projects = [
       <div>
         Kozy Klassroom is Learning Management System (Submission Portal + Forum)
         created using ReactJS, material ui, material ui template, react router,
-        firebase. I built this as part of{" "}
+        firebase. I built this as part of&nbsp;
         <b>the Microsoft Engage Program 2021</b>
       </div>
     ),
@@ -73,8 +73,7 @@ function Projects() {
   return (
     <div className="flex flex-col justify-evenly gap-4 ">
       <div className="card text-left font-semibold w-full dark:text-white">
-        {" "}
-        Projects ({projectsArray.length})
+        &nbsp;Projects ({projectsArray.length})
         <div className="flex flex-row gap-2 flex-wrap m-2">
           <button
             className={`btn-outlined rounded-2xl border-2 ${
@@ -83,8 +82,7 @@ function Projects() {
             data-id="all"
             onClick={e => handleClick(e)}
           >
-            {" "}
-            All
+            &nbsp;All
           </button>
           <button
             className={`btn-outlined rounded-2xl border-2 ${
@@ -93,8 +91,7 @@ function Projects() {
             data-id="reactjs"
             onClick={e => handleClick(e)}
           >
-            {" "}
-            ReactJS{" "}
+            &nbsp;ReactJS&nbsp;
           </button>
           <button
             className={`btn-outlined rounded-2xl border-2 ${
@@ -103,8 +100,7 @@ function Projects() {
             data-id="firebase"
             onClick={e => handleClick(e)}
           >
-            {" "}
-            Firebase
+            &nbsp;Firebase
           </button>
           <button
             className={`btn-outlined rounded-2xl border-2 ${
@@ -113,8 +109,7 @@ function Projects() {
             data-id="tailwind"
             onClick={e => handleClick(e)}
           >
-            {" "}
-            Tailwind
+            &nbsp;Tailwind
           </button>
         </div>
       </div>
@@ -160,7 +155,7 @@ function Projects() {
             className={nav === i + 1 ? "nav-chip-selected" : "nav-chip"}
             onClick={() => setNav(i + 1)}
           >
-            {" "}
+            &nbsp;
             {i + 1}
           </button>
         ))}

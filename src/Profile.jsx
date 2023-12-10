@@ -11,23 +11,20 @@ function Profile(props) {
       <div className="flex flex-col p-4 sm:w-3/4 justify-between">
         <div className="flex flex-col sm:flex-row items-baseline">
           <div className=" text-3xl font-semibold text-left text-zinc-700 dark:text-white pt-4">
-            {" "}
-            Meghana Varanasi
+            &nbsp;Meghana Varanasi
           </div>
           <div className="text-lg p-1 italic font-semibold text-zinc-700 dark:text-white">
-            {" "}
-            (she/her)
+            &nbsp;(she/her)
           </div>
         </div>
         <div className="flex flex-row justify-between">
           <div className="title text-left text-zinc-600 dark:text-zinc-300 italic">
-            {" "}
+            &nbsp;
             {ROLE}
           </div>
           {/* add graduation and recent work */}
           <div className="text-lg text-left text-zinc-600 dark:text-zinc-300 font-semibold">
-            {" "}
-            IIT Bhilai CSE '22 | CGPA: 8.1
+            &nbsp;IIT Bhilai CSE '22 | CGPA: 8.1
           </div>
         </div>
         <div className="text-left text-zinc-500 dark:text-zinc-400 font-semibold">
