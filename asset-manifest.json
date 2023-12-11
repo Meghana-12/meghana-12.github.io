@@ -1,11 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.17b14fc3.css",
-<<<<<<< Updated upstream
     "main.js": "/static/js/main.b56ce31e.js",
-=======
-    "main.js": "/static/js/main.53bd769d.js",
->>>>>>> Stashed changes
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/portfolio.png": "/static/media/portfolio.28e0963935f0cd535124.png",
     "static/media/kozy.png": "/static/media/kozy.6f9e9cd4a3ae277762c8.png",
@@ -21,19 +17,11 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.9c537f31af3925b5887b468a4cb7836f.svg",
     "main.17b14fc3.css.map": "/static/css/main.17b14fc3.css.map",
-<<<<<<< Updated upstream
     "main.b56ce31e.js.map": "/static/js/main.b56ce31e.js.map",
-=======
-    "main.53bd769d.js.map": "/static/js/main.53bd769d.js.map",
->>>>>>> Stashed changes
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17b14fc3.css",
-<<<<<<< Updated upstream
     "static/js/main.b56ce31e.js"
-=======
-    "static/js/main.53bd769d.js"
->>>>>>> Stashed changes
   ]
 }
