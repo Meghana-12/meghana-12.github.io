@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.17b14fc3.css",
-    "main.js": "/static/js/main.b56ce31e.js",
+    "main.css": "/static/css/main.9c42d376.css",
+    "main.js": "/static/js/main.6c2eaef5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/portfolio.png": "/static/media/portfolio.28e0963935f0cd535124.png",
     "static/media/kozy.png": "/static/media/kozy.6f9e9cd4a3ae277762c8.png",
     "static/media/profile.jpeg": "/static/media/profile.6002049f444d0f0215f9.jpeg",
-    "static/media/cat.jpeg": "/static/media/cat.d99deb43bf2335bdab30.jpeg",
-    "static/media/first.jpeg": "/static/media/first.ac1c5ad7a7a4d4345f29.jpeg",
     "static/media/chat-app.png": "/static/media/chat-app.11d3e1d1c4a77b40e7f7.png",
     "static/media/technica.png": "/static/media/technica.9f1f97470dcdea41c27a.png",
     "static/media/hacktober.png": "/static/media/hacktober.4e550c4571f0ab66830f.png",
@@ -16,12 +14,12 @@
     "static/media/mail.svg": "/static/media/mail.33a78295f8d77a99449e837cea7dae9e.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.9c537f31af3925b5887b468a4cb7836f.svg",
-    "main.17b14fc3.css.map": "/static/css/main.17b14fc3.css.map",
-    "main.b56ce31e.js.map": "/static/js/main.b56ce31e.js.map",
+    "main.9c42d376.css.map": "/static/css/main.9c42d376.css.map",
+    "main.6c2eaef5.js.map": "/static/js/main.6c2eaef5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17b14fc3.css",
-    "static/js/main.b56ce31e.js"
+    "static/css/main.9c42d376.css",
+    "static/js/main.6c2eaef5.js"
   ]
 }
