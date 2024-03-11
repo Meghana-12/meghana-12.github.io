@@ -1,6 +1,6 @@
 import React from "react";
-import Experience from "./components/Experience";
-import { experiences } from "./consts/experiences";
+import Experience from "../components/Experience";
+import { experiences } from "../consts/experiences";
 
 function Experiences() {
   return (

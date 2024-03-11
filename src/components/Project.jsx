@@ -13,8 +13,7 @@ function Project(props) {
               key={hashtag}
               className="text-zinc-700 dark:text-zinc-300 font-medium text-sm"
             >
-              {" "}
-              #{hashtag}{" "}
+              #{hashtag}
             </div>
           ))}
         </div>

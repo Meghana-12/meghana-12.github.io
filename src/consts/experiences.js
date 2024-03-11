@@ -11,10 +11,11 @@ export const experiences = [
     company: "Needl.AI",
     duration: "Jun 2022 - Present",
     tasks: [
-      "Integrated and configured a feature flagging and experimentation platform, optimizing feature release processes and enabling controlled feature roll-outs. Improved stability and flexibility in product iterations.",
-      "Implemented various data previews enhancing user experience by providing dynamic and intuitive interface options. Leveraged expertise in React JS hooks, dynamic css, context API and other frontend tools to create versatile and visually appealing views, catering to varying user preferences and requirements.",
-      "Updated user events throughout the application to meet revamped tracking requirements, ensuring comprehensive tracking and analysis of user interactions.",
-      "Spearheaded the integration of the third party payment system to to streamline transaction processes. This integration involved collaborating with cross-functional teams, overseeing design & implementation phases, and conducting thorough testing to guarantee a smooth and efficient payment flow for our customers.",
+      "Successfully launched the company’s 1st third-party payment system, incorporating features like subscriptions and customer portal. Worked on the backend for payments including security enhancements using middlewares, streamlining transaction processes and enhancing customer experience.",
+      "Achieved a 90% reduction in user time for feed creation in the app by executing end-to-end development of an AI feature atop an existing POC. This involved implementing backend migrations, adding middlewares, APIs integration and the frontend development, including implementing designs, writing tests in Typescript.",
+      "Reduced 20% of the developer involvement in flag management by integrating Feature Flagging & Experimentation Platform, optimizing feature release processes and improving product iteration stability and flexibility.",
+      "Developed the full stack changes for different data sources integration including migrations and tests.",
+      "Implemented previews using advanced techniques in React JS hooks, context API, headless UI components, react router for developing more than 8 variants to cater to different types of data types and sources.",
     ],
   },
   {
@@ -23,8 +24,9 @@ export const experiences = [
     company: "Needl.AI",
     duration: "May 2021 - Jul 2021",
     tasks: [
-      "Effectively migrated the JavaScript-based Authentication component library to a new Typescript-driven UI. This significantly enhanced the app’s design system, streamlining code and simplifying development for our team.",
-      " Migrated and implemented necessary tests for components and pages to enhance the stability and reliability of the application.",
+      "Migrated 90% of authentication and onboarding pages from a component library to our in-house design system. Developed custom components as needed to ensure alignment and consistency.",
+      "Migrated and implemented necessary tests to enhance the stability and reliability of the application.",
+      "Research and utilized PDF.js (Mozilla’s PDF viewer) to enhance PDF viewing options and actions, optimizing user experience through tailored customization and interactive features.",
     ],
   },
   {
@@ -33,8 +35,8 @@ export const experiences = [
     company: "9th Block",
     duration: "Dec 2020 - Mar 2021",
     tasks: [
-      "  Developed intuitive web interfaces using ReactJS (TypeScript) from mockups, optimizing for performance and optimized components for peak performance across various devices.",
-      " Integrated RESTful APIs to facilitate seamless functionality and data exchange. Additionally, implemented robust security measures through JSON Web Tokens (JWT) for user authentication and authorization.",
+      "Developed intuitive web interfaces using ReactJS (TypeScript) from mockups, optimizing for performance and optimized components for peak performance across various devices.",
+      "Integrated RESTful APIs to facilitate seamless functionality and data exchange. Additionally, implemented robust security measures through JSON Web Tokens (JWT) for user authentication and authorization.",
     ],
   },
   {
