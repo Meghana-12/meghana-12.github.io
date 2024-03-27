@@ -1,0 +1,240 @@
+@keyframes pulsate {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+
+@keyframes pulsate-hue {
+  from {
+    filter: drop-shadow(1px 0 3px orange) drop-shadow(0 1px 3px orange)
+      drop-shadow(-1px 0 3px orange) drop-shadow(0 -1px 3px orange);
+  }
+  to {
+    filter: drop-shadow(1px 0 3px rgb(166, 42, 83))
+      drop-shadow(0 1px 3px rgb(166, 42, 83))
+      drop-shadow(-1px 0 3px rgb(166, 42, 83))
+      drop-shadow(0 -1px 3px rgb(166, 42, 83));
+  }
+}
+
+@keyframes pulsate-hue-small {
+  from {
+    filter: drop-shadow(1px 0 1px #d87093) drop-shadow(1px 0 1px #d87093)
+      drop-shadow(1px 0 1px #d87093) drop-shadow(1px 0 1px #d87093);
+  }
+  to {
+    filter: drop-shadow(0.5px 0 0.5px #d87093)
+      drop-shadow(0.5px 0 0.5px #d87093) drop-shadow(0.5px 0 0.5px #d87093)
+      drop-shadow(0.5px 0 0.5px #d87093);
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  overflow: auto;
+  background-color: #1b1b1e;
+  font-family: "Courier New", monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-img {
+  width: 300px;
+  object-fit: cover;
+  /* border: 2px solid palevioletred; */
+  /* box-shadow: 0px 0px 10px 3px rgb(166, 42, 83); */
+  padding: 30px 30px 0px 30px;
+  animation: pulsate-hue 1s ease-in-out infinite alternate;
+}
+
+.box {
+  display: block;
+  background-color: green;
+  height: 50px;
+  width: 50px;
+}
+
+footer {
+  /* position: absolute;
+  bottom: 0;
+*/
+  background: -webkit-linear-gradient(#d87093, orange);
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 500;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: palevioletred;
+  font-size: 1em;
+  border: 1px solid palevioletred;
+  box-shadow: 0px 0px 5px 2px rgb(166, 42, 83);
+  text-shadow: rgb(166, 42, 83) 0px 0px 10px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button:hover {
+  /* background-color: palevioletred; */
+  box-shadow: 0px 0px 200px 10px palevioletred;
+  color: palevioletred;
+  border: 1px solid palevioletred;
+  /* color: white; */
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: left;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: palevioletred;
+  color: transparent;
+}
+
+h1:hover {
+  color: transparent;
+}
+
+#cursor {
+  position: fixed;
+  border-radius: 50%;
+  width: 0px;
+  height: 0px;
+  transform: translateX(50%) translateY(50%);
+  pointer-events: none; /* Prevent clicks on the circle */
+  box-shadow: 0px 0px 100px 40px rgb(166, 42, 83);
+}
+
+b {
+  background: -webkit-linear-gradient(palevioletred, orange);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+b:hover {
+  background: -webkit-linear-gradient(violet, palevioletred);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: palevioletred;
+  color: transparent;
+}
+
+h2:hover {
+  text-decoration: underline;
+  text-decoration-color: palevioletred;
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 0.02rem;
+}
+
+.about-me {
+  color: palevioletred;
+  padding: 1.5rem;
+}
+
+section {
+  padding: 1.5rem;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    orange,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 1.5rem;
+}
+
+.skill-item {
+  animation: pulsate-hue-small 1s ease-in-out infinite alternate;
+}
+
+.sub-section {
+  padding: 1.5rem;
+}
+
+svg {
+  fill: palevioletred;
+}
+
+.experience {
+  border: 1px solid palevioletred;
+  box-shadow: 0px 0px 10px 3px rgb(166, 42, 83);
+  padding: 1rem;
+  margin: 1rem;
+  /* animation: pulsate-hue-small 1s ease-in-out infinite alternate; */
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: palevioletred;
+  padding-left: 1rem;
+  text-indent: -1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+li:before {
+  content: "-";
+  padding-right: 5px;
+  color: rgb(166, 42, 83);
+  filter: drop-shadow(0.5px 0 5px #d87093) drop-shadow(0.5px 0 5px #d87093);
+}
